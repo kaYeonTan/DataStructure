@@ -30,7 +30,10 @@
     <ClCompile Include="0915_2FibonacciSequence.cpp">
       <Filter>소스 파일\Recursive</Filter>
     </ClCompile>
-    <ClCompile Include="0919_1RecursiveBinarySearch.cpp">
+    <ClCompile Include="0919_1BinarySearch.cpp">
+      <Filter>소스 파일\Recursive</Filter>
+    </ClCompile>
+    <ClCompile Include="0920_1TheTowerOfHanoi.cpp">
       <Filter>소스 파일\Recursive</Filter>
     </ClCompile>
   </ItemGroup>
