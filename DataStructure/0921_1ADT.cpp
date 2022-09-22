@@ -13,7 +13,7 @@ int main(void)
 {
 	Wallet myWallet; //Áö°© ¸¶·Ã
 
-	PutMoney(&myWallet, 5, 10); //µ·À» ³Ö´Â´Ù.  
+	//PutMoney(&myWallet, 5, 10); //µ·À» ³Ö´Â´Ù.  
 
-	ret = TakeOutMoney(&myWallet, 2, 5); //µ·À» ²¨³½´Ù.
+	//ret = TakeOutMoney(&myWallet, 2, 5); //µ·À» ²¨³½´Ù.
 }

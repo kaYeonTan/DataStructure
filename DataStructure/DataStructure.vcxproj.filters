@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\LinkedList">
       <UniqueIdentifier>{403b1ef2-ea48-4dab-a143-c202ab7cb1d9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\ProjectFile">
+      <UniqueIdentifier>{6226a812-4518-4b43-97b8-17bd20c06196}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0913_1Recursion.cpp">
@@ -42,5 +45,19 @@
     <ClCompile Include="0921_1ADT.cpp">
       <Filter>소스 파일\LinkedList</Filter>
     </ClCompile>
+    <ClCompile Include="0922_1ListMain.cpp">
+      <Filter>소스 파일\LinkedList</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Data_Structure_Src\Ch03\ArrayList\ListMain.c">
+      <Filter>소스 파일\ProjectFile</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Data_Structure_Src\Ch03\ArrayList\ArrayList.c">
+      <Filter>소스 파일\ProjectFile</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Desktop\Data_Structure_Src\Ch03\ArrayList\ArrayList.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
