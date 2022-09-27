@@ -22,6 +22,9 @@
     <Filter Include="소스 파일\ProjectFile">
       <UniqueIdentifier>{6226a812-4518-4b43-97b8-17bd20c06196}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\0927">
+      <UniqueIdentifier>{4231daa9-05b2-4513-bf40-ee13625a0bf6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="0913_1Recursion.cpp">
@@ -60,12 +63,24 @@
     <ClCompile Include="..\..\..\..\Desktop\Data_Structure_Src\Ch03\ArrayListPointStructBase\PointListMain.c">
       <Filter>소스 파일\ProjectFile</Filter>
     </ClCompile>
+    <ClCompile Include="NameCard.c">
+      <Filter>소스 파일\0927</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Data_Structure_Src\Ch03\Prob03-2\ArrayList.c">
+      <Filter>소스 파일\0927</Filter>
+    </ClCompile>
+    <ClCompile Include="NameCardListMain.c">
+      <Filter>소스 파일\0927</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Desktop\Data_Structure_Src\Ch03\ArrayListPointStructBase\ArrayList.h">
+    <ClInclude Include="..\..\..\..\Desktop\Data_Structure_Src\Ch03\ArrayListPointStructBase\Point.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\Desktop\Data_Structure_Src\Ch03\ArrayListPointStructBase\Point.h">
+    <ClInclude Include="..\..\..\..\Desktop\Data_Structure_Src\Ch03\Prob03-2\ArrayList.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="NameCard.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>

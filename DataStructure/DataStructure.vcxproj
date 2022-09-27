@@ -140,12 +140,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\Desktop\Data_Structure_Src\Ch03\ArrayListPointStructBase\ArrayList.c" />
-    <ClCompile Include="..\..\..\..\Desktop\Data_Structure_Src\Ch03\ArrayListPointStructBase\Point.c" />
-    <ClCompile Include="..\..\..\..\Desktop\Data_Structure_Src\Ch03\ArrayListPointStructBase\PointListMain.c" />
+    <ClCompile Include="..\..\..\..\Desktop\Data_Structure_Src\Ch03\ArrayListPointStructBase\ArrayList.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Data_Structure_Src\Ch03\ArrayListPointStructBase\Point.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Data_Structure_Src\Ch03\ArrayListPointStructBase\PointListMain.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\..\..\..\Desktop\Data_Structure_Src\Ch03\ArrayList\ListMain.c">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\Desktop\Data_Structure_Src\Ch03\Prob03-2\ArrayList.c" />
     <ClCompile Include="0913_1Recursion.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
@@ -170,10 +177,13 @@
     <ClCompile Include="0922_1ListMain.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="NameCard.c" />
+    <ClCompile Include="NameCardListMain.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\Desktop\Data_Structure_Src\Ch03\ArrayListPointStructBase\ArrayList.h" />
     <ClInclude Include="..\..\..\..\Desktop\Data_Structure_Src\Ch03\ArrayListPointStructBase\Point.h" />
+    <ClInclude Include="..\..\..\..\Desktop\Data_Structure_Src\Ch03\Prob03-2\ArrayList.h" />
+    <ClInclude Include="NameCard.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
