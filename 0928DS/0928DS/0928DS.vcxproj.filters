@@ -18,7 +18,10 @@
     <ClCompile Include="ArrayRead.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\..\..\Desktop\Data_Structure_Src\Ch04\LinkedRead.c">
+    <ClCompile Include="..\..\..\..\..\Desktop\Data_Structure_Src\Ch04\LinkedRead.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="DLinkedRead.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
