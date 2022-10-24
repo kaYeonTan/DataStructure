@@ -142,8 +142,11 @@
     <ClInclude Include="..\..\..\..\..\Desktop\Data_Structure_Src\Ch04\DLinkedList\DLinkedList.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Desktop\Data_Structure_Src\Ch04\DLinkedListSort\DLinkedListSortMain.c" />
     <ClCompile Include="..\..\..\..\..\Desktop\Data_Structure_Src\Ch04\DLinkedList\DLinkedList.c" />
-    <ClCompile Include="..\..\..\..\..\Desktop\Data_Structure_Src\Ch04\DLinkedList\DLinkedListMain.c" />
+    <ClCompile Include="..\..\..\..\..\Desktop\Data_Structure_Src\Ch04\DLinkedList\DLinkedListMain.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -26,5 +26,8 @@
     <ClCompile Include="..\..\..\..\..\Desktop\Data_Structure_Src\Ch04\DLinkedList\DLinkedListMain.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\Data_Structure_Src\Ch04\DLinkedListSort\DLinkedListSortMain.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
