@@ -141,6 +141,9 @@
   <ItemGroup>
     <ClInclude Include="..\..\..\..\..\Desktop\Data_Structure_Src\Ch05\CircularLinkedList\CLinkedList.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\..\Desktop\Data_Structure_Src\Ch05\CircularLinkedList\CLinkedList.c" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
