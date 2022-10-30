@@ -15,16 +15,19 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\..\Desktop\Data_Structure_Src\Ch05\CircularLinkedList\CLinkedList.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
+    <ClCompile Include="..\..\..\..\..\Desktop\Data_Structure_Src\Ch05\Prob05-1\CLinkedList.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\..\Desktop\Data_Structure_Src\Ch05\Prob05-1\NightDutyMain.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\..\..\Desktop\Data_Structure_Src\Ch05\CircularLinkedList\CLinkedList.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\..\Desktop\Data_Structure_Src\Ch05\CircularLinkedList\CLinkedListMain.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
+    <ClInclude Include="..\..\..\..\..\Desktop\Data_Structure_Src\Ch05\Prob05-1\CLinkedList.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\..\Desktop\Data_Structure_Src\Ch05\Prob05-1\Employee.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
