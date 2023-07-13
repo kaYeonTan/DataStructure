@@ -33,5 +33,17 @@
     <ClCompile Include="230706_Calculate.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="230713_Function.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230713_Function2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230713_Array.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230713_Array_Nd.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
