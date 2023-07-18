@@ -45,5 +45,14 @@
     <ClCompile Include="230713_Array_Nd.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="230718_Pointer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230718_pointer2.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="230718_Memory.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
