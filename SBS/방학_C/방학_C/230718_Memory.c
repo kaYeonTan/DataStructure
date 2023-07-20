@@ -9,7 +9,7 @@ int main()
 
 	num_pointer1 = &num1;
 	num_pointer2 = malloc(sizeof(int));
-	num_pointer2 = 15;
+	//num_pointer2 = 15;
 
 	printf("%p\n", num_pointer1);
 	printf("%p\n", num_pointer2);

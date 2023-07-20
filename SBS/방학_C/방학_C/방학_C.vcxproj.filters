@@ -13,46 +13,64 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\알고리즘">
+      <UniqueIdentifier>{f5f685f4-cba6-426d-b836-b695d94f70e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Basic">
+      <UniqueIdentifier>{beaa6ba4-6edb-45ab-8822-16fae7ae7f10}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="방학_C.cpp">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="230720_Recursive.cpp">
+      <Filter>소스 파일\알고리즘</Filter>
     </ClCompile>
     <ClCompile Include="실수.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="230705_str.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Basic</Filter>
     </ClCompile>
     <ClCompile Include="230705_const.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Basic</Filter>
     </ClCompile>
     <ClCompile Include="230705_Input.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="230705_str.cpp">
+      <Filter>소스 파일\Basic</Filter>
     </ClCompile>
     <ClCompile Include="230706_Calculate.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="230713_Function.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="230713_Function2.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Basic</Filter>
     </ClCompile>
     <ClCompile Include="230713_Array.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Basic</Filter>
     </ClCompile>
     <ClCompile Include="230713_Array_Nd.cpp">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Basic</Filter>
     </ClCompile>
-    <ClCompile Include="230718_Pointer.c">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="230713_Function.cpp">
+      <Filter>소스 파일\Basic</Filter>
     </ClCompile>
-    <ClCompile Include="230718_pointer2.c">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="230713_Function2.cpp">
+      <Filter>소스 파일\Basic</Filter>
     </ClCompile>
     <ClCompile Include="230718_Memory.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="230718_Pointer.c">
+      <Filter>소스 파일\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="230718_Pointer2.c">
+      <Filter>소스 파일\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="230720_Pointer_Func.c">
+      <Filter>소스 파일\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="230720_Pointer_Func2.c">
+      <Filter>소스 파일\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="방학_C.cpp">
+      <Filter>소스 파일\Basic</Filter>
+    </ClCompile>
+    <ClCompile Include="230720_Greedy.cpp">
+      <Filter>소스 파일\알고리즘</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
