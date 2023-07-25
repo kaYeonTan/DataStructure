@@ -72,5 +72,8 @@
     <ClCompile Include="230720_Greedy.cpp">
       <Filter>소스 파일\알고리즘</Filter>
     </ClCompile>
+    <ClCompile Include="230725_낮은 카드들 중 가장 높은 숫자.cpp">
+      <Filter>소스 파일\알고리즘</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
